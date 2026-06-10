@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Quran Online</title>
+
+<!-- Favicon ya Quran -->
+<link rel="icon" type="image/png" href="quran-favicon.png">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f8f3;
+}
+
+/* Header */
+header{
+    background:#0b6e4f;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:40px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* Navigation */
+nav{
+    background:#08513b;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:gold;
+}
+
+/* Hero Section */
+.hero{
+    text-align:center;
+    padding:90px 20px;
+    background:linear-gradient(rgba(0,70,40,0.6),rgba(0,70,40,0.6)),
+    url('https://images.unsplash.com/photo-1542816417-0983670d5e02');
+    background-size:cover;
+    background-position:center;
+    color:white;
+}
+
+.hero h1{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:gold;
+    color:black;
+    text-decoration:none;
+    padding:12px 25px;
+    border-radius:6px;
+    margin:10px;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:white;
+}
+
+/* Four Boxes */
+.container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    padding:40px;
+}
+
+.box{
+    width:250px;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border-top:5px solid #0b6e4f;
+}
+
+.box h2{
+    color:#0b6e4f;
+    margin-bottom:15px;
+}
+
+/* Footer */
+footer{
+    background:#0b6e4f;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>🕌 Quran Online</h1>
+    <p>Karibu Kusoma na Kusikiliza Quran Tukufu</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="sura.html">Sura</a>
+    <a href="tafsiri.html">Tafsiri</a>
+    <a href="audio.html">Audio</a>
+    <a href="mawasiliano.html">Mawasiliano</a>
+</nav>
+
+<section class="hero">
+    <h1>بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</h1>
+
+    <p>
+        LEARN QURAN WITH DERSNE
+    </p>
+
+    <a href="sura.html" class="btn">📖 Soma Quran</a>
+    <a href="audio.html" class="btn">🎧 Sikiliza Quran</a>
+</section>
+
+<section class="container">
+
+    <div class="box">
+        <h2>📖 114 Sura</h2>
+        <p>Pata sura zote za Quran kwa urahisi.</p>
+    </div>
+
+    <div class="box">
+        <h2>📚 Tafsiri</h2>
+        <p>Soma tafsiri ya Quran kwa Kiswahili.</p>
+    </div>
+
+    <div class="box">
+        <h2>🎧 Audio Quran</h2>
+        <p>Sikiliza Quran kutoka kwa wasomaji maarufu.</p>
+    </div>
+
+    <div class="box">
+        <h2>🤲 Dua za Kila Siku</h2>
+        <p>Soma dua na adhkari mbalimbali.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 Quran Online</p>
+    <p>Imetengenezwa na DADY06</p>
+</footer>
+
+</body>
+</html>
